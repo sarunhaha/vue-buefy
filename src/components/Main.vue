@@ -1,17 +1,17 @@
 <template>
-    <div class="main">
+    <div class="main"> 
         <ul>
             <li v-for="todo  in todos" :key="todo.time">
                 {{todo.text}}
             </li>
         </ul>
         <br><br>
-        <!-- v-if , v-else -->
+        <!-- v-if , v-else --> 
         <ul>
             <li v-for="todo in todos" :key="todo.time">
                 <div v-if="todo.completed == false" >{{todo.text}}</div>
             </li>
-        </ul>
+        </ul> 
 
 
     </div>

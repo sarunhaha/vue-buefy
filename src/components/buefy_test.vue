@@ -11,7 +11,5 @@
         <b-field label="Username" type="is-success" message="This username is available">
         <b-input value="johnsilver" maxlength="30"></b-input>
         </b-field>
-        </section>
-
-        
+        </section>   
     </template>
