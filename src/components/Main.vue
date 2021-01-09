@@ -5,7 +5,7 @@
                 {{todo.text}}
             </li>
         </ul>
-        <br><br>
+        <br><br><br><br>
         <!-- v-if , v-else --> 
         <ul>
             <li v-for="todo in todos" :key="todo.time">
